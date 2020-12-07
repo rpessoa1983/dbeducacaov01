@@ -60,7 +60,7 @@ Preta
 
 objeto <- CONCLUINTES_SSA %>% filter(TP_COR_RACA %in% c("Preta")) %>% filter(TP_SEXO %in% c("M")) %>% group_by(ANO_CENSO_SUP) %>% summarise(value =sum(value)) %>%
 ggplot(aes(x=ANO_CENSO_SUP,y=value)) +
-  geom_bar(stat = "identity",fill="#00c4cc",color="#fac113") + 
+  geom_bar(stat = "identity",fill="#00c4cc",color="#fac113",width = 0.5) + 
   labs(
     title = "",
     x = "Ano",
@@ -101,7 +101,7 @@ Parda
 
 objeto <- CONCLUINTES_SSA %>% filter(TP_COR_RACA %in% c("Parda")) %>% filter(TP_SEXO %in% c("M")) %>% group_by(ANO_CENSO_SUP) %>% summarise(value =sum(value)) %>%
 ggplot(aes(x=ANO_CENSO_SUP,y=value)) +
-  geom_bar(stat = "identity",fill="#00c4cc",color="#fac113") + 
+  geom_bar(stat = "identity",fill="#00c4cc",color="#fac113",width = 0.5) + 
   labs(
     title = "",
     x = "Ano",
@@ -142,7 +142,7 @@ Branca
 
 objeto <- CONCLUINTES_SSA %>% filter(TP_COR_RACA %in% c("Branca")) %>% filter(TP_SEXO %in% c("M")) %>% group_by(ANO_CENSO_SUP) %>% summarise(value =sum(value)) %>%
 ggplot(aes(x=ANO_CENSO_SUP,y=value)) +
-  geom_bar(stat = "identity",fill="#00c4cc",color="#fac113") + 
+  geom_bar(stat = "identity",fill="#00c4cc",color="#fac113",width = 0.5) + 
   labs(
     title = "",
     x = "Ano",
@@ -183,7 +183,7 @@ Amarela
 
 objeto <- CONCLUINTES_SSA %>% filter(TP_COR_RACA %in% c("Amarela")) %>% filter(TP_SEXO %in% c("M")) %>% group_by(ANO_CENSO_SUP) %>% summarise(value =sum(value)) %>%
 ggplot(aes(x=ANO_CENSO_SUP,y=value)) +
-  geom_bar(stat = "identity",fill="#00c4cc",color="#fac113") + 
+  geom_bar(stat = "identity",fill="#00c4cc",color="#fac113",width = 0.5) + 
   labs(
     title = "",
     x = "Ano",
@@ -225,7 +225,7 @@ Indígena
 
 objeto <- CONCLUINTES_SSA %>% filter(TP_COR_RACA %in% c("Indígena")) %>% filter(TP_SEXO %in% c("M")) %>% group_by(ANO_CENSO_SUP) %>% summarise(value =sum(value)) %>%
 ggplot(aes(x=ANO_CENSO_SUP,y=value)) +
-  geom_bar(stat = "identity",fill="#00c4cc",color="#fac113") + 
+  geom_bar(stat = "identity",fill="#00c4cc",color="#fac113",width = 0.5) + 
   labs(
     title = "",
     x = "Ano",
@@ -267,7 +267,7 @@ NQD
 
 objeto <- CONCLUINTES_SSA %>% filter(TP_COR_RACA %in% c("*NQD")) %>% filter(TP_SEXO %in% c("M")) %>% group_by(ANO_CENSO_SUP) %>% summarise(value =sum(value)) %>%
 ggplot(aes(x=ANO_CENSO_SUP,y=value)) +
-  geom_bar(stat = "identity",fill="#00c4cc",color="#fac113") + 
+  geom_bar(stat = "identity",fill="#00c4cc",color="#fac113",width = 0.5) + 
   labs(
     title = "",
     x = "Ano",
@@ -308,7 +308,7 @@ NDI
 
 objeto <- CONCLUINTES_SSA %>% filter(TP_COR_RACA %in% c("*NDI")) %>% filter(TP_SEXO %in% c("M")) %>% group_by(ANO_CENSO_SUP) %>% summarise(value =sum(value)) %>%
 ggplot(aes(x=ANO_CENSO_SUP,y=value)) +
-  geom_bar(stat = "identity",fill="#00c4cc",color="#fac113") + 
+  geom_bar(stat = "identity",fill="#00c4cc",color="#fac113",width = 0.5) + 
   labs(
     title = "",
     x = "Ano",
