@@ -67,10 +67,10 @@ ggplot(aes(x=ANO_CENSO_SUP,y=value)) +
     y = "Nº"
   ) +
   theme(title = element_text(size = 12,colour = "#db4470"))+
-    theme(axis.title.x=element_text(size=22)) +
-    theme(axis.title.y=element_text(size=22)) +
-  theme(legend.text = element_text(size = 22)) +
-    theme(axis.text = element_text(size = 22))  +
+    theme(axis.title.x=element_text(size=12)) +
+    theme(axis.title.y=element_text(size=12)) +
+  theme(legend.text = element_text(size = 12)) +
+    theme(axis.text = element_text(size = 12))  +
   theme(legend.position = "none")+
   theme(panel.grid = element_blank(), axis.ticks.y = element_line())+
 #  theme( axis.line = element_line(colour = "darkblue", 
@@ -107,10 +107,10 @@ ggplot(aes(x=ANO_CENSO_SUP,y=value)) +
     y = "Nº"
   ) +
   theme(title = element_text(size = 12,colour = "#db4470"))+
-    theme(axis.title.x=element_text(size=22)) +
-    theme(axis.title.y=element_text(size=22)) +
-  theme(legend.text = element_text(size = 22)) +
-    theme(axis.text = element_text(size = 22))  +
+    theme(axis.title.x=element_text(size=12)) +
+    theme(axis.title.y=element_text(size=12)) +
+  theme(legend.text = element_text(size = 12)) +
+    theme(axis.text = element_text(size = 12))  +
   theme(legend.position = "none")+
   theme(panel.grid = element_blank(), axis.ticks.y = element_line())+
 #  theme( axis.line = element_line(colour = "darkblue", 
@@ -147,10 +147,10 @@ ggplot(aes(x=ANO_CENSO_SUP,y=value)) +
     y = "Nº"
   ) +
   theme(title = element_text(size = 12,colour = "#db4470"))+
-    theme(axis.title.x=element_text(size=22)) +
-    theme(axis.title.y=element_text(size=22)) +
-  theme(legend.text = element_text(size = 22)) +
-    theme(axis.text = element_text(size = 22))  +
+    theme(axis.title.x=element_text(size=12)) +
+    theme(axis.title.y=element_text(size=12)) +
+  theme(legend.text = element_text(size = 12)) +
+    theme(axis.text = element_text(size = 12))  +
   theme(legend.position = "none")+
   theme(panel.grid = element_blank(), axis.ticks.y = element_line())+
 #  theme( axis.line = element_line(colour = "darkblue", 
@@ -188,10 +188,10 @@ ggplot(aes(x=ANO_CENSO_SUP,y=value)) +
     y = "Nº"
   ) +
   theme(title = element_text(size = 12,colour = "#db4470"))+
-    theme(axis.title.x=element_text(size=22)) +
-    theme(axis.title.y=element_text(size=22)) +
-  theme(legend.text = element_text(size = 22)) +
-    theme(axis.text = element_text(size = 22))  +
+    theme(axis.title.x=element_text(size=12)) +
+    theme(axis.title.y=element_text(size=12)) +
+  theme(legend.text = element_text(size = 12)) +
+    theme(axis.text = element_text(size = 12))  +
   theme(legend.position = "none")+
   theme(panel.grid = element_blank(), axis.ticks.y = element_line())+
 #  theme( axis.line = element_line(colour = "darkblue", 
@@ -228,10 +228,10 @@ ggplot(aes(x=ANO_CENSO_SUP,y=value)) +
     y = "Nº"
   ) +
   theme(title = element_text(size = 12,colour = "#db4470"))+
-    theme(axis.title.x=element_text(size=22)) +
-    theme(axis.title.y=element_text(size=22)) +
-  theme(legend.text = element_text(size = 22)) +
-    theme(axis.text = element_text(size = 22))  +
+    theme(axis.title.x=element_text(size=12)) +
+    theme(axis.title.y=element_text(size=12)) +
+  theme(legend.text = element_text(size = 12)) +
+    theme(axis.text = element_text(size = 12))  +
   theme(legend.position = "none")+
   theme(panel.grid = element_blank(), axis.ticks.y = element_line())+
 #  theme( axis.line = element_line(colour = "darkblue", 
@@ -269,10 +269,10 @@ ggplot(aes(x=ANO_CENSO_SUP,y=value)) +
     y = "Nº"
   ) +
   theme(title = element_text(size = 12,colour = "#db4470"))+
-    theme(axis.title.x=element_text(size=22)) +
-    theme(axis.title.y=element_text(size=22)) +
-  theme(legend.text = element_text(size = 22)) +
-    theme(axis.text = element_text(size = 22))  +
+    theme(axis.title.x=element_text(size=12)) +
+    theme(axis.title.y=element_text(size=12)) +
+  theme(legend.text = element_text(size = 12)) +
+    theme(axis.text = element_text(size = 12))  +
   theme(legend.position = "none")+
   theme(panel.grid = element_blank(), axis.ticks.y = element_line())+
 #  theme( axis.line = element_line(colour = "darkblue", 
@@ -310,10 +310,10 @@ ggplot(aes(x=ANO_CENSO_SUP,y=value)) +
     y = "Nº"
   ) +
   theme(title = element_text(size = 12,colour = "#db4470"))+
-    theme(axis.title.x=element_text(size=22)) +
-    theme(axis.title.y=element_text(size=22)) +
-  theme(legend.text = element_text(size = 22)) +
-    theme(axis.text = element_text(size = 22))  +
+    theme(axis.title.x=element_text(size=12)) +
+    theme(axis.title.y=element_text(size=12)) +
+  theme(legend.text = element_text(size = 12)) +
+    theme(axis.text = element_text(size = 12))  +
   theme(legend.position = "none")+
   theme(panel.grid = element_blank(), axis.ticks.y = element_line())+
 #  theme( axis.line = element_line(colour = "darkblue", 
@@ -350,10 +350,10 @@ ggplot(aes(x=ANO_CENSO_SUP,y=value)) +
     y = "Nº"
   ) +
   theme(title = element_text(size = 12,colour = "#db4470"))+
-    theme(axis.title.x=element_text(size=22)) +
-    theme(axis.title.y=element_text(size=22)) +
-  theme(legend.text = element_text(size = 22)) +
-    theme(axis.text = element_text(size = 22))  +
+    theme(axis.title.x=element_text(size=12)) +
+    theme(axis.title.y=element_text(size=12)) +
+  theme(legend.text = element_text(size = 12)) +
+    theme(axis.text = element_text(size = 12))  +
   theme(legend.position = "none")+
   theme(panel.grid = element_blank(), axis.ticks.y = element_line())+
 #  theme( axis.line = element_line(colour = "darkblue", 
@@ -390,10 +390,10 @@ ggplot(aes(x=ANO_CENSO_SUP,y=value)) +
     y = "Nº"
   ) +
   theme(title = element_text(size = 12,colour = "#db4470"))+
-    theme(axis.title.x=element_text(size=22)) +
-    theme(axis.title.y=element_text(size=22)) +
-  theme(legend.text = element_text(size = 22)) +
-    theme(axis.text = element_text(size = 22))  +
+    theme(axis.title.x=element_text(size=12)) +
+    theme(axis.title.y=element_text(size=12)) +
+  theme(legend.text = element_text(size = 12)) +
+    theme(axis.text = element_text(size = 12))  +
   theme(legend.position = "none")+
   theme(panel.grid = element_blank(), axis.ticks.y = element_line())+
 #  theme( axis.line = element_line(colour = "darkblue", 
