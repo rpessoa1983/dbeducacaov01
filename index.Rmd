@@ -413,3 +413,35 @@ ggplot(aes(x=ANO_CENSO_SUP,y=value)) +
 #ggplotly(objeto)
 objeto
 ```
+
+### Teste
+================================
+
+
+```{r,eval=TRUE}
+library(echarts4r) # charts
+library(tidyverse) # general use
+library(lubridate) # dates and times
+library(prophet) # forecasting
+library(nycflights13) # data
+
+top_destinations <- flights %>% 
+  count(dest) %>% 
+  top_n(15, n) %>% 
+  arrange(n)
+
+top_destinations %>%
+  e_charts(x = dest) %>%
+  e_bar(n, legend = FALSE, name = "Flights") %>% 
+  e_labels(position = "right") %>% 
+  e_tooltip() %>% 
+  e_title("Flights by destination", "Top 15 destinations") %>% 
+  e_flip_coords() %>% 
+  e_y_axis(splitLine = list(show = FALSE)) %>% 
+  e_x_axis(show = FALSE) %>% 
+  e_toolbox_feature(
+    feature = "saveAsImage",
+    title = "Save as image"
+  )
+
+```
