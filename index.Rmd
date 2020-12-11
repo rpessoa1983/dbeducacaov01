@@ -410,6 +410,6 @@ ggplot(aes(x=ANO_CENSO_SUP,y=value)) +
   #theme_minimal(base_family = "Roboto Condensed") +
   #theme(panel.grid = element_blank(), axis.ticks.y = element_line()) +
   #guides(fill = guide_legend(reverse = TRUE))
-ggplotly(objeto)
-
+#ggplotly(objeto)
+objeto
 ```
