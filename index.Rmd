@@ -414,7 +414,7 @@ ggplot(aes(x=ANO_CENSO_SUP,y=value)) +
 objeto
 ```
 
-### Teste
+Teste
 ================================
 
 
@@ -430,15 +430,21 @@ top_destinations <- flights %>%
   top_n(15, n) %>% 
   arrange(n)
 
-top_destinations %>%
-  e_charts(x = dest) %>%
-  e_bar(n, legend = FALSE, name = "Flights") %>% 
+#top_destinations
+
+CONCLUINTES_SSA %>% filter(TP_SEXO %in% c("M")) %>% group_by(ANO_CENSO_SUP) %>% summarise(value =sum(value)) %>% mutate(ANO_CENSO_SUP=as.character(ANO_CENSO_SUP)) %>%
+  e_charts(x = ANO_CENSO_SUP) %>%
+  e_bar(value, legend = FALSE, name = "Nº Concluintes") %>% 
   e_labels(position = "right") %>% 
   e_tooltip() %>% 
-  e_title("Flights by destination", "Top 15 destinations") %>% 
+  e_title("Sexo Masculino", "Total") %>% 
   e_flip_coords() %>% 
   e_y_axis(splitLine = list(show = FALSE)) %>% 
-  e_x_axis(show = FALSE) %>% 
+  e_x_axis(show = FALSE) %>%
+  e_color(
+    c("#00c4cc", "#db4470"),
+    "#ffffff"
+  ) %>%
   e_toolbox_feature(
     feature = "saveAsImage",
     title = "Save as image"
